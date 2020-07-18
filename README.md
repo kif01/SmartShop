@@ -10,7 +10,7 @@ An IBM Cloud-powered mobile app that assists you in your shopping. The app recog
 - Watson Studio
 
 ## Architecture
-<img width="818" alt="Screen Shot 2020-07-19 at 2 51 21 AM" src="https://user-images.githubusercontent.com/15332386/87863603-abd98900-c96d-11ea-934d-9811a2259a1a.png">
+<img width="818" alt="Screen Shot 2020-07-19 at 2 51 21 AM" src="https://user-images.githubusercontent.com/15332386/87863847-18a25280-c971-11ea-9db4-d26bcbd9e567.png">
 
 1- We feed Cloudant DB with a JSON sample data of products. <br>
 2- User opens the camera on his mobile app and takes a picture of the product's ID.<br>
