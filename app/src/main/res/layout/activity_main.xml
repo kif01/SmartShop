@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="17sp"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/empty"
+
+        android:text="Start taking pictures of the Products ID that you want to buy and fill your Cart 📸 🛒 "
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+
+        android:layout_width="wrap_content"
+        android:textSize="27sp"
+        android:text="Smart Shop"
+
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E8E8E8"
+        />
+
+
+
+    <!--<LinearLayout
+        android:paddingBottom="10dp"
+        android:id="@+id/layout"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:text="Total Amount:"
+
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/total_amount"
+            android:drawableLeft="@drawable/ic_price"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="0"
+            android:textColor="#348EE5"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>-->
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+      android:layout_below="@+id/view2"
+        android:layout_above="@+id/camera"
+        android:visibility="invisible"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <View
+        android:layout_below="@id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E8E8E8"
+        />
+
+
+
+
+
+
+    <!--   <RelativeLayout
+         android:background="@android:color/white"
+         android:layout_width="match_parent"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_height="65dp">
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#E8E8E8"
+             />
+
+        <ImageButton
+           android:layout_marginBottom="10dp"
+           android:id="@+id/camera"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/ic_camera"
+           android:background="@android:color/transparent"
+           android:layout_centerInParent="true"
+           />
+
+
+    </RelativeLayout>-->
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#ffffff"
+
+            app:backgroundTint="#ffffff"
+
+            android:layout_centerInParent="true"
+            android:id="@+id/camera"
+
+            app:fabCustomSize="65dp"
+            app:maxImageSize="45dp"
+            android:layout_margin="10dp"
+
+
+            android:src="@drawable/ic_camera"
+
+
+            />
+
+
+
+
+
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/pay"
+        android:textAllCaps="false"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:drawablePadding="-15dp"
+        android:drawableRight="@drawable/ic_right"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="Pay"
+
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="23dp"
+        android:id="@+id/total_amount"
+        android:drawableLeft="@drawable/ic_price_large"
+        android:layout_width="wrap_content"
+        android:textSize="28sp"
+
+        android:text="0"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

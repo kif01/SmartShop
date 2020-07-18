@@ -1,0 +1,147 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+
+    >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="30dp"
+
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardUseCompatPadding="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:paddingBottom="18dp"
+        >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+
+         />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E8E8E8"
+            android:layout_below="@id/product_image"
+            />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/product_title"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Quilt cover and pillowcase - LUKTJASMIN"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/product_image"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            />
+
+        <ImageButton
+
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_increase2"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/increase"
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            android:layout_below="@+id/product_title"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_qty"
+            android:layout_toRightOf="@+id/increase"
+            android:layout_below="@+id/product_title"
+            />
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:src="@drawable/ic_decrease2"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/product_qty"
+            android:id="@+id/decrease"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/product_title"/>
+
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50"
+            android:textColor="#348EE5"
+            android:layout_below="@+id/product_image"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="8dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+
+            android:drawableLeft="@drawable/ic_price"
+            android:textSize="20sp"
+
+
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/remove_product"
+        card_view:fabSize="mini"
+        android:backgroundTint="#ffffff"
+        app:backgroundTint="#ffffff"
+        android:layout_marginTop="5dp"
+
+        android:src="@drawable/ic_remove"
+        card_view:layout_anchorGravity="end"
+
+
+        android:layout_marginRight="12dp"
+        card_view:layout_anchor="@id/card_view"
+
+
+
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
