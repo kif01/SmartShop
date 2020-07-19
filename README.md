@@ -17,3 +17,8 @@ An IBM Cloud-powered mobile app that assists you in your shopping. The app recog
 3- The image is sent via a POST request to MAX OCR Model deployed on Openshift. The model processes the image to extract the text (ID of the product) and sends it back to Android.<br>
 4- Android accesses the product's document in Cloudant using the product's ID extracted from the previous step (The ID of the products are stored in Cloudant to access them correspondingly), and gets the information of the product to display it to the user. When the user clicks on pay in the app, the total quantity of the corresponding product gets updated and incremented to keep track of the number of units being sold.<br>
 5- Watson Studio is connected to Cloudant DB where we have the data. We visualize this data to get a better understanding of our products (Like checking the number of units of every product that have been sold, or the number of sales for every product).<br>
+
+## Screenshots
+
+<img width="278" alt="Screen Shot 2020-07-19 at 3 44 20 AM" src="https://user-images.githubusercontent.com/15332386/87864079-ac295280-c974-11ea-8793-e6026e43bdbb.png">
+<img width="302" alt="Screen Shot 2020-07-19 at 4 00 16 AM" src="https://user-images.githubusercontent.com/15332386/87864080-afbcd980-c974-11ea-9e58-505e1f0ecc85.png">
