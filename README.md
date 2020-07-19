@@ -20,5 +20,4 @@ An IBM Cloud-powered mobile app that assists you in your shopping. The app recog
 
 ## Screenshots
 
-<img width="278" alt="Screen Shot 2020-07-19 at 3 44 20 AM" src="https://user-images.githubusercontent.com/15332386/87864079-ac295280-c974-11ea-8793-e6026e43bdbb.png">
-<img width="302" alt="Screen Shot 2020-07-19 at 4 00 16 AM" src="https://user-images.githubusercontent.com/15332386/87864080-afbcd980-c974-11ea-9e58-505e1f0ecc85.png">
+<img width="598" alt="Screen Shot 2020-07-19 at 4 06 55 AM" src="https://user-images.githubusercontent.com/15332386/87864120-5e611a00-c975-11ea-87f1-6e94c82dcec4.png">
