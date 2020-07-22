@@ -1,6 +1,8 @@
 # Smart-Shop
 ## Description
-An IBM Cloud-powered mobile app that assists you in your shopping. The app recognizes the products that you want to purchase in a store by taking pictures of their IDs. Instead of waiting at the counter to scan every item and pay there, the app can automate the entire process. Must note that the integration with a real payment system is not part of this project, this is a PoC that focuses more on recognizing the products using IBM Cloud services.
+An IBM Cloud-powered mobile app that assists you in your shopping. The app recognizes the products that you want to purchase in a store by taking pictures of their IDs. Instead of waiting at the counter to scan every item and pay there, the app can automate the entire process. Must note that the integration with a real payment system is not part of this project, this is a PoC that focuses more on recognizing the products using IBM Cloud services. Check the below for GIF a better understanding. Must note that I don't have actual physical products so instead I was taking pictures of images on the screen as if they are actual real products in a shop.
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/15332386/88186866-d9ad1f00-cc46-11ea-8413-44805464db29.gif)
 
 ## Technologies
 - Android
