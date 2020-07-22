@@ -9,7 +9,7 @@ An IBM Cloud-powered mobile app that assists you in your shopping. The app recog
 ## Technologies
 - Android
 - Openshift
-- MAX OCR Model (Text Extraction AI Model)
+- [MAX OCR Model](https://developer.ibm.com/exchanges/models/all/max-ocr/) (Text Extraction AI Model)
 - Cloudant DB
 - Watson Studio
 
